@@ -1,6 +1,6 @@
 import polyscope as ps
 import numpy as np
-
+# meant to render the models using polyscope
 def render_models(meshes, output_prefix='render'):
     ps.set_ground_plane_mode('shadow_only') 
     ps.set_view_projection_mode('orthographic')
